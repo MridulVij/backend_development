@@ -1,0 +1,13 @@
+function sum(a,b){
+    return a+b;
+}
+
+function diff(a,b){
+    return a-b;
+}
+
+function fx(a,b){
+    return fx();
+}
+
+console.log(fx(sum,a,b));

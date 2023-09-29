@@ -1,0 +1,21 @@
+{
+  "type": "module",
+  "name": "testing",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node ./index.js",
+    "dev":"nodemon ./index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "_comments":" [^] for little update , [~] for last minor update 0.00.0 <- this one, [*] for any version update , [ ] blank space for exact package install",
+    "express": "^4.18.2",
+    "nodemon": "^3.0.1"
+  }
+}
+
+
