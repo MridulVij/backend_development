@@ -10,3 +10,4 @@ const sub=(a,b)=>{
     return a-b;
 }
 export {sum, sub};
+// export default 'single_variable or single object' we are able to pass init

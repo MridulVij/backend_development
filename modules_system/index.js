@@ -24,8 +24,11 @@
 
 // Node 
 import express from 'express';
+import {sub, sum} from './lib.js';
 
-const server = express();
-server.listen(2020);
+console.log(sum(10,20));
+console.log(sub(20,10));
+// const server = express();
+// server.listen(2020);
 
 
