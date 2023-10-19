@@ -17,7 +17,7 @@ const auth = (req,res,next)=>{
 
 
 // using auth after initializing
-server.get('/',auth,(req,res)=>{
+server.get('/',(req,res)=>{
     res.json({type: "GET"});
 });
 
@@ -39,5 +39,5 @@ server.patch('/',auth,(req,res)=>{
 
 
 server.listen(PORT,()=>{
-    console.log("Server is running!");
+    console.log(`Server is running! on port http://localhost:${PORT}`);
 });
